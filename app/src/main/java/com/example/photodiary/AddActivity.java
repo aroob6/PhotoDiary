@@ -35,7 +35,6 @@ public class AddActivity extends AppCompatActivity {
 
     byte[] imgbyte, weatherbyte;
 
-    ConstraintLayout capture;
     ImageView sun,cloud,rain,snow;
 
     @Override
@@ -48,7 +47,6 @@ public class AddActivity extends AppCompatActivity {
         btn_finish = findViewById(R.id.btn_finish);
         tv_date = findViewById(R.id.tv_date);
         et_content = findViewById(R.id.et_content);
-        capture = findViewById(R.id.capture);
         sun = findViewById(R.id.sun);
         cloud = findViewById(R.id.cloud);
         rain = findViewById(R.id.rain);
