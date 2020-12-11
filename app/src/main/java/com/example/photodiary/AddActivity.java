@@ -33,7 +33,7 @@ public class AddActivity extends AppCompatActivity {
     EditText et_content;
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
-    byte[] imgbyte, capturebyte, weatherbyte;
+    byte[] imgbyte, weatherbyte;
 
     ConstraintLayout capture;
     ImageView sun,cloud,rain,snow;
